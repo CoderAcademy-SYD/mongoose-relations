@@ -1,4 +1,6 @@
-require("./database/connection");
+const dbconnect = require("./database/connection");
+dbconnect("books_r_us2");
+
 const app = require("./app");
 const port = 3000;
 
